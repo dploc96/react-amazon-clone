@@ -1,0 +1,52 @@
+.chatbox button,
+.chatbox input {
+  padding: 0.625rem;
+  border-radius: 0.313rem;
+  border: 0.063em solid #a4a4a4;
+  font-size: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.chatbox {
+  color: #000000;
+  position: fixed;
+  right: 0.625rem;
+  bottom: 0.625rem;
+  z-index: 2;
+}
+
+.chatbox ul {
+  overflow: scroll;
+  max-height: 12.5rem;
+}
+
+.chatbox li {
+  margin-bottom: 0.625rem;
+}
+
+.chatbox input {
+  width: calc(100% - 4.5rem);
+}
+
+.chatbox__cartBody {
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #f8f8f8;
+  border-radius: 0.313rem;
+  margin: 0.625rem;
+  padding: 0.625rem;
+}
+
+.chatbox__cartBody > * {
+  margin-bottom: 0.313rem;
+}
+
+.chatbox__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbox__closeIcon {
+  cursor: pointer;
+}

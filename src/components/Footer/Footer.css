@@ -1,0 +1,12 @@
+.footer {
+  grid-area: footer;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  background-color: #131921;
+
+  height: 3.75rem;
+}

@@ -1,0 +1,32 @@
+.card {
+  border: 0.063rem #c0c0c0 solid;
+  border-radius: 0.313rem;
+  margin: 0.625rem;
+  text-align: center;
+}
+
+.card a {
+  color: #000;
+}
+.card__body {
+  padding: 0.625rem;
+}
+.card__body > * {
+  margin-bottom: 0.313rem;
+}
+
+.card__img {
+  max-width: 18.125rem;
+  width: auto;
+}
+
+.card__name {
+  max-width: 18.125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 3rem;
+}
+
+.card__price {
+  font-size: 1.25rem;
+}

@@ -1,0 +1,16 @@
+.alert {
+  padding: 0.625rem;
+  border: 0.063rem solid transparent;
+  border-radius: 0.313rem;
+  text-align: center;
+}
+
+.alert-info {
+  color: #2020a0;
+  background-color: #e0e0ff;
+}
+
+.alert-danger {
+  color: #a02020;
+  background-color: #ffe0e0;
+}

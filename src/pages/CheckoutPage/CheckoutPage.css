@@ -1,0 +1,26 @@
+.checkout {
+  display: flex;
+  padding: 1.25rem;
+  background-color: white;
+  height: max-content;
+}
+
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+
+.checkout__title {
+  margin-right: 0.625rem;
+  padding: 0.625rem;
+  border-bottom: 0.063rem solid lightgray;
+}
+
+.min-30 {
+  min-width: 18.75rem;
+}
+
+img.small {
+  max-width: 3.125rem;
+  width: 100%;
+}
