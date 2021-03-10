@@ -1,5 +1,5 @@
-# Link demo:
-[https://frozen-crag-64962.herokuapp.com/]
+# Link:
+https://frozen-crag-64962.herokuapp.com/
 
 # Getting Started with Create React App
 
